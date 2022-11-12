@@ -1,20 +1,16 @@
 * {
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-top: 2.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 0;
     padding-bottom: 2.5%;
 }
-.h1 {
-    align-items: center;
-    margin-left: 3px;
 
-}
 .top {
 background-color: lightgrey;
 align-content: center;
-border: 45px;
-border-style: double;
-padding: 135px;
+border: 35px;
+border-style: ridge;
+padding: 50px;
 }
 .internal-link {
     display: flex;
@@ -26,7 +22,7 @@ padding: 135px;
     align-content: center;
     background-color: lightgrey;
     border: 45px;
-    border-style: double;
+    border-style: ridge;
     padding: 135px;
 }
 .card2 {

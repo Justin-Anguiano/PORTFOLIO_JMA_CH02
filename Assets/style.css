@@ -1,0 +1,52 @@
+* {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+.h1 {
+    align-items: center;
+    margin-left: 3px;
+
+}
+.top {
+background-color: lightgrey;
+align-content: center;
+border: 45px;
+border-style: double;
+padding: 135px;
+}
+.internal-link {
+    display: flex;
+    align-content: space-around;
+    box-shadow: 2px;
+}
+
+.card1 {
+    align-content: center;
+    background-color: lightgrey;
+    border: 45px;
+    border-style: double;
+    padding: 135px;
+}
+.card2 {
+    align-content: center;
+    background-color: lightgrey;
+    border: 45px;
+    border-style: double;
+    padding: 135px;
+}
+.card3 {
+    align-content: center;
+    background-color: lightgrey;
+    border: 45px;
+    border-style: double;
+    padding: 135px;
+}
+.card4 {
+    align-content: center;
+    background-color: lightgrey;
+    border: 45px;
+    border-style: double;
+    padding: 135px;
+}

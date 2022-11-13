@@ -1,48 +1,47 @@
-* {
+.body {
     margin-left: 1%;
     margin-right: 1%;
     height: 0;
     padding-bottom: 2.5%;
-}
+    color: rgb(rgb(148, 128, 128), green, blue);
+    }
 
-.top {
-background-color: lightgrey;
-align-content: center;
-border: 35px;
-border-style: ridge;
-padding: 50px;
-}
-.internal-link {
-    display: flex;
-    align-content: space-around;
-    box-shadow: 2px;
-}
-
-.card1 {
-    align-content: center;
-    background-color: lightgrey;
-    border: 45px;
+.topbar {
+    width: 96%;
+    height: 20%;
+    border: 35px;
     border-style: ridge;
-    padding: 135px;
+    align-content: center;
+    color: white;
+    font-style: oblique;
+}
+.button:hover {
+    background-color: whitesmoke;
+    }
+    
+.card1 {
+    width: 96%;
+    height: 20%;
+    border: 35px;
+    border-style: ridge;
+    align-content: center;
+    color: white;
+    font-style: oblique;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 .card2 {
+    width: 96%;
+    height: 20%;
+    border: 35px;
+    border-style: ridge;
     align-content: center;
-    background-color: lightgrey;
-    border: 45px;
-    border-style: double;
-    padding: 135px;
+    color: white;
+    font-style: oblique;
+    font-family: sans-serif;
+    font-weight: bold;
 }
-.card3 {
-    align-content: center;
-    background-color: lightgrey;
-    border: 45px;
-    border-style: double;
-    padding: 135px;
-}
-.card4 {
-    align-content: center;
-    background-color: lightgrey;
-    border: 45px;
-    border-style: double;
-    padding: 135px;
+#contact-info-section {
+    color: white;
+
 }

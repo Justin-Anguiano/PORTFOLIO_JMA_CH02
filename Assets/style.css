@@ -1,6 +1,6 @@
 .body {
     margin-left: 1%;
-    margin-right: 1%;
+    margin-right: 5%;
     height: 0;
     padding-bottom: 2.5%;
     color: rgb(rgb(148, 128, 128), green, blue);
@@ -16,7 +16,7 @@
     font-style: oblique;
 }
 .button:hover {
-    background-color: whitesmoke;
+    background-color: lightgrey;
     }
 
 .card1 {
@@ -30,39 +30,7 @@
     font-family: sans-serif;
     font-weight: bold;
 }
-.card2 {
-    width: 40%;
-    height: 480px;
-    border: 35px;
-    border-style: ridge;
-    align-content: center;
-    color: white;
-    font-style: oblique;
-    font-family: sans-serif;
-    font-weight: bold;
-}
-.card3 {
-    width: 40%;
-    height: 480px;
-    border: 35px;
-    border-style: ridge;
-    align-content: center;
-    color: white;
-    font-style: oblique;
-    font-family: sans-serif;
-    font-weight: bold;
-}
-.card4 {
-    width: 40%;
-    height: 480px;
-    border: 35px;
-    border-style: ridge;
-    align-content: center;
-    color: white;
-    font-style: oblique;
-    font-family: sans-serif;
-    font-weight: bold;
-}
+
 .card5 {
     width: 96%;
     height: 15%;

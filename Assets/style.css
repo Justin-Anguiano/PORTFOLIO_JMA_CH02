@@ -4,11 +4,12 @@
     height: 0;
     padding-bottom: 2.5%;
 }
-.h1 {
-    padding-left: 50px;
+#h1 {
+    font-size: large;
+    float: inline-start;
 }
 .topbar {
-    width: 96%;
+    width: 95%;
     height: 20%;
     border: 35px;
     border-style: ridge;
@@ -16,39 +17,60 @@
     color: white;
     font-style: oblique;
 }
-.bttn {
-    flex-direction: row;
-    justify-content: center;
-}
-.button:hover {
-    background-color: lightgrey;
+.ul-links a {
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: sans-serif;
+    text-shadow: 1px 1px black;
+    color: #5b5050;
+    background-color: darkgray;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 15px black;
+    cursor: pointer;
     }
-.container {
-    display: flex;
-    align-items: center; 
+a:hover {
+    background-color: lightgrey;    
+    box-shadow: 0 0 15px #000;
+    }
+
+#about-me-button {
+    float: left;
+}
+#surf-report-button {
+    float: right;
+}
+#led-wall-button {
+    float: left;
+}
+#calculator-button {
+    float: right;
+}
+#pastel-puzzle-button {
+    float: left;
+}
+#run-buddy-button {
+    float: right;
 }
 
 .card {
-    width: 50%;
+    width: 625px;
     height: 480px;
     border: 35px;
     border-style: ridge;
-    align-content: center;
     color: white;
     font-style: oblique;
     font-family: sans-serif;
     font-weight: bold;
 }
-.con-info {
-    flex-wrap: wrap;
-    align-items: center;
-    margin-left: 26%;
-}
-.card5 {
-    display: flexbox;
-    justify-content: center;
-    width: 96%;
-    height: 20%;
+.container2 {
+    display: flex;
+    justify-content: last baseline;
+    width: 95%;
+    height: 10%;
+    padding-top: 5%;
     border: 35px;
     border-style: ridge;
     color: white;
@@ -58,8 +80,13 @@
 .links {
     flex-wrap: wrap;
     align-items: center;
+    color: black;
+    font-size: 25px;
+    padding: 5px;
     margin-left: 20%;
     padding-bottom: 5px;
     box-shadow: 0px 5px 15px;           
     cursor: pointer;
-    }
+}
+
+

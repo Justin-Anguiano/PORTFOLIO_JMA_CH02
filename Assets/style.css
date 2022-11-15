@@ -5,62 +5,48 @@
     padding-bottom: 2.5%;
 }
 #h1 {
-    font-size: large;
-    float: inline-start;
+    font-family: sans-serif;
 }
 .topbar {
     width: 95%;
-    height: 20%;
-    border: 35px;
-    border-style: ridge;
-    align-content: center;
-    color: white;
-    font-style: oblique;
+    color: black;
+    font-family: sans-serif;
+    font-size: large;
 }
+
 .ul-links a {
+    display: block;
     color: black;
     font-size: 25px;
-    padding: 5px;
+    padding: 25px;
     border-radius: 5px;
     margin: 5px;
     font-family: sans-serif;
-    text-shadow: 1px 1px black;
-    color: #5b5050;
-    background-color: darkgray;
-    text-transform: uppercase;
-    box-shadow: 5px 5px 15px black;
+    color: black;
+    background-color: white;
+    text-transform: uppercase; 
     cursor: pointer;
     }
 a:hover {
-    background-color: lightgrey;    
-    box-shadow: 0 0 15px #000;
+    background-color: white;    
+    box-shadow: 0 0 5px #000;
     }
 
-#about-me-button {
-    float: left;
+.container {
+    margin-left: 25%;
 }
-#surf-report-button {
-    float: right;
-}
-#led-wall-button {
-    float: left;
-}
-#calculator-button {
-    float: right;
-}
-#pastel-puzzle-button {
-    float: left;
-}
-#run-buddy-button {
-    float: right;
+
+.para {
+    margin-right: 4%;
+    color: white;
 }
 
 .card {
     width: 625px;
     height: 480px;
-    border: 35px;
-    border-style: ridge;
-    color: white;
+    margin-top: 15px;
+    border-style: solid;
+    background-color: black;
     font-style: oblique;
     font-family: sans-serif;
     font-weight: bold;
@@ -71,8 +57,6 @@ a:hover {
     width: 95%;
     height: 10%;
     padding-top: 5%;
-    border: 35px;
-    border-style: ridge;
     color: white;
     font-family: sans-serif;
     font-weight: bold;
@@ -80,12 +64,10 @@ a:hover {
 .links {
     flex-wrap: wrap;
     align-items: center;
-    color: black;
     font-size: 25px;
     padding: 5px;
     margin-left: 20%;
-    padding-bottom: 5px;
-    box-shadow: 0px 5px 15px;           
+    padding-bottom: 5px;          
     cursor: pointer;
 }
 

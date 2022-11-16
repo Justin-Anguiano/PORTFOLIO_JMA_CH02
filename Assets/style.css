@@ -10,6 +10,8 @@ html {
 #h1 {
     padding-top: 7px;
     font-family: sans-serif;
+    text-decoration: underline orange;
+
 }
 .topbar {
     width: 90%;
@@ -27,17 +29,18 @@ html {
     margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
-    background-color: lightgray;
+    background-color: white;
+    font-family: sans-serif;
 }
 .ul-links a {
     display: block;
     color: black;
     font-size: 15px;
-    padding: 15px;
+    padding: 35px;
     border-radius: 5px;
     margin-top: 5px;
     margin-right: 88%;
-    margin-left: -5%;
+    margin-left: -7%;
     font-family: sans-serif;
     color: black;
     background-color: white;
@@ -46,7 +49,7 @@ html {
     }
 a:hover {
     background-color: white;    
-    box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px lightgrey;
     }
 
 .container {
@@ -63,23 +66,42 @@ a:hover {
     margin-left: 160px;
     color: black;
 }
+
 #projects {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-#surf-report-button {
-    width: 100%;
 }
 .card {
     width: 300px;
     height: 300px;
     margin-left: 10%;
     margin-top: 15px;
-    background-color: lightgrey;
+    background-color: black;
     font-family: sans-serif;
     font-weight: bold;
 }
+color {
+    color: orange;
+}
+#surf-report-button {
+    width: 700px;
+    height: 250px;
+    color: white;
+}
+#led-wall-button {
+    color: white;
+}
+#calculator-button {
+    color: white;
+}
+#pastel-puzzle-button {
+    color: white;
+}
+#run-buddy-button {
+    color: white;
+}
+
 .container2 {
     position: absolute;
     margin-left: 25%;
@@ -90,12 +112,17 @@ a:hover {
     font-family: sans-serif;
     font-weight: bold;
 }
-#links {
-    width: 25px;
-    height: 25px;          
+/*#links {
+    width: 90%;
+    height: 60px;
+    margin-left: 4.5%;
+    margin-right: 2.5%;
+    padding-left: 5%;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;         
     cursor: pointer;
     
-
 }
 
 

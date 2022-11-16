@@ -36,10 +36,11 @@ html {
     display: block;
     color: black;
     font-size: 15px;
+    text-decoration: none;
     padding: 35px;
     border-radius: 5px;
     margin-top: 5px;
-    margin-right: 88%;
+    margin-right: 90%;
     margin-left: -7%;
     font-family: sans-serif;
     color: black;
@@ -53,13 +54,13 @@ a:hover {
     }
 
 .container {
-    margin-left: 25%;
+    margin-left: 22%;
 }
 #img1 > img{
-    width: 200px;
+    width: 185px;
     height: 315px;
     margin-right: 25%;
-    margin-left: 55%;
+    margin-left: 75%;
 }
 .para {
     margin-right: 4%;
@@ -72,36 +73,34 @@ a:hover {
     justify-content: center;
     flex-wrap: wrap;
 }
-.card {
-    width: 300px;
-    height: 300px;
-    margin-left: 10%;
-    margin-top: 15px;
-    background-color: black;
+.srb {
     font-family: sans-serif;
-    font-weight: bold;
 }
-color {
+.card {
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 15px;
+    /*background-color: lightgrey;*/
+    font-family: sans-serif;
+    
+    padding-left: 45px;
+    padding-top: 20px;
+    color: black;
+}
+.color {
     color: orange;
 }
-#surf-report-button {
-    width: 700px;
-    height: 250px;
-    color: white;
+.underline {
+    text-decoration: underline orange;
+    text-underline-offset: 10px;
 }
-#led-wall-button {
+#surf-report-button img{
+    width: 800px;
+    height: 450px;
     color: white;
+    font-family: sans-serif;
 }
-#calculator-button {
-    color: white;
-}
-#pastel-puzzle-button {
-    color: white;
-}
-#run-buddy-button {
-    color: white;
-}
-
 .container2 {
     position: absolute;
     margin-left: 25%;

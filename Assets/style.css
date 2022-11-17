@@ -92,7 +92,7 @@ a:hover {
 .color {
     color: orange;
 }
-.underline hello{
+.underline {
     text-decoration: underline orange;
     text-underline-offset: 10px;
 }
@@ -116,10 +116,4 @@ a:hover {
     font-family: sans-serif;
     font-size: x-large;
     font-weight: bold;
-}
-/*
-#social {
-    padding-top: 10px;
-    display: flex;
-    justify-content: space-evenly;
 }

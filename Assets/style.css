@@ -11,6 +11,7 @@ html {
     padding-top: 25px;
     font-family: sans-serif;
     text-decoration: underline orange;
+    text-underline-offset: 10px;
 
 }
 .topbar {
@@ -39,7 +40,7 @@ html {
     border-radius: 5px;
     margin-top: 75px;
     margin-right: 90%;
-    margin-left: -7%;
+    margin-left: -5%;
     font-family: sans-serif;
     color: black;
     background-color: white;
@@ -55,8 +56,8 @@ a:hover {
     margin-left: 22%;
 }
 #img1 > img{
-    width: 195px;
-    height: 315px;
+    width: 200px;
+    height: 225px;
     margin-right: 25%;
     margin-left: 1%;
 }
@@ -102,15 +103,20 @@ a:hover {
 }
 .container2 {
     width: auto;
-    height: 100px;
+    height: 75px;
     padding-top: 40px;
-    padding-left: 35%;
+    padding-left: 600px;
     background-color: black;
     color: white;
+    text-decoration: underline orange;
+    text-underline-offset: 7.5px;
     font-family: sans-serif;
     font-size: x-large;
     font-weight: bold;
 }
+/*
 #social {
-    justify-content: space-between;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
 }

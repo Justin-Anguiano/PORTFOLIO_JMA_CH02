@@ -81,9 +81,8 @@ a:hover {
 .card {
     width: 420px;
     height: 400px;
-    margin-left: 10px;
+    margin-left: 40px;
     margin-top: 15px;
-    /*background-color: lightgrey;*/
     font-family: sans-serif;
     padding-left: 45px;
     padding-top: 40px;
@@ -96,10 +95,11 @@ a:hover {
     text-decoration: underline orange;
     text-underline-offset: 10px;
 }
+/* different ID here as image is supposed to be larger */
 #surf-report-button img{
     padding-top: 20%;
     margin: auto;
-    width: 900px;
+    width: 800px;
     height: 550px;
     color: white;
     font-family: sans-serif;

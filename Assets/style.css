@@ -32,14 +32,17 @@ html {
     font-family: sans-serif;
     font-size: x-large;
 }
+/* flex is set but won't function */
 .ul-links a {
+    flex-direction: row;
+    justify-content: space-evenly;
     display: block;
     color: black;
     font-size: 15px;
     text-decoration: none;
-    padding: 25px;
+    padding: 20px;
     border-radius: 5px;
-    margin-top: 75px;
+    margin-top: 65px;
     margin-right: 90%;
     margin-left: -5%;
     font-family: sans-serif;
@@ -48,6 +51,7 @@ html {
     text-transform: uppercase; 
     cursor: pointer;
     }
+    /* hover set for buttons */
 a:hover {
     background-color: white;    
     box-shadow: 0 0 5px lightgrey;
@@ -69,7 +73,7 @@ a:hover {
     margin-left: 160px;
     color: black;
 }
-
+/* start flex for projects here */
 #projects {
     display: flex;
     justify-content: center;
@@ -81,6 +85,7 @@ a:hover {
 .card {
     width: 420px;
     height: 400px;
+    margin-right: auto;
     margin-left: 40px;
     margin-top: 15px;
     font-family: sans-serif;
@@ -105,6 +110,8 @@ a:hover {
     font-family: sans-serif;
 }
 .container2 {
+    flex-direction: row;
+    flex-flow: row wrap;
     width: auto;
     height: 75px;
     padding-top: 40px;
